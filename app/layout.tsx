@@ -11,7 +11,8 @@ const fontSans = FontSans({
 
 export const metadata: Metadata = {
   title: "Code Stories",
-  description: "Code Stories é um jogo de histórias de mistério geradas por IA.",
+  description:
+    "Code Stories é um jogo de histórias de mistério geradas por IA.",
 };
 
 export default function RootLayout({
@@ -23,11 +24,13 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased bg-slate-900 container w-full h-full",
+          "min-h-screen bg-background font-sans antialiased bg-slate-600 container w-full h-lvh",
           fontSans.variable
         )}
       >
-        {children}
+        <div className="flex flex-col gap-2 justify-center items-center content-center w-full h-full">
+          {children}
+        </div>
       </body>
     </html>
   );

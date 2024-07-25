@@ -14,8 +14,8 @@ datasource db {
 }
 
 model Story {
-  id Int @default(autoincrement()) @id
-  title String
+  id       Int    @id @default(autoincrement())
+  title    String
   question String
-  answer String
+  answer   String
 }
