@@ -44,8 +44,8 @@ export default async function Home() {
         <li>
           Faça Perguntas: Os outros jogadores assumem o papel de detetives e
           podem fazer perguntas ao Mestre do Mistério para tentar entender o que
-          aconteceu. As perguntas devem ser respondidas apenas com "sim", "não"
-          ou "irrelevante".
+          aconteceu. As perguntas devem ser respondidas apenas com sim, não
+          ou irrelevante.
         </li>
 
         <li>
